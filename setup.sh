@@ -13,17 +13,6 @@ fi
 
 cd poly-livre-fullstack-infrastructure
 
-if [ -f ".env.local" ]; then
-  cp .env.local ../poly-livre-frontend/.env.local
-else
-  cat <<EOF > ../poly-livre-frontend/.env.local
-NEXT_PUBLIC_TESTING_MODE=true
-UPSTASH_REDIS_REST_URL=""
-UPSTASH_REDIS_REST_TOKEN=""
-NEXT_PUBLIC_API_URL=http://localhost:8080
-EOF
-fi
-
 echo "Installing frontend dependencies..."
 (cd ../poly-livre-frontend && npm install)
 
