@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/HoodieYlya13/poly-livre-frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/HoodieYlya13/poly-livre-backend
