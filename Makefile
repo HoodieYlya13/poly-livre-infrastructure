@@ -1,20 +1,18 @@
 # ==============================================================================
-# Poly Livre - Root Infrastructure Makefile
+# Liprerie - Root Infrastructure Makefile
 # Developed by: HoodieYlya13, Akaby, & Algebrino
 # ==============================================================================
 
 .PHONY: help init dev all frontend backend stop clean logs status
 
-# Colors
 CYAN  := \033[36m
 GREEN := \033[32m
 RESET := \033[0m
 BOLD  := \033[1m
 
-# Default target
 help:
 	@printf "\n"
-	@printf " $(CYAN)$(BOLD)Poly Livre Infrastructure Control Panel$(RESET)\n"
+	@printf " $(CYAN)$(BOLD)Liprerie Infrastructure Control Panel$(RESET)\n"
 	@printf " Developed by: $(BOLD)HoodieYlya13$(RESET) | $(BOLD)Akaby$(RESET) | $(BOLD)Algebrino$(RESET)\n"
 	@printf " ====================================================================\n"
 	@printf " $(BOLD)Usage:$(RESET) make <target>\n"
@@ -35,7 +33,7 @@ help:
 	@printf "\n"
 
 init:
-	@printf " $(CYAN)--> Preparing your Poly Livre local workspace...$(RESET)\n"
+	@printf " $(CYAN)--> Preparing your Liprerie local workspace...$(RESET)\n"
 	@chmod +x setup.sh
 	@./setup.sh
 
@@ -76,5 +74,5 @@ clean:
 	@printf " $(CYAN)--> Tearing down containers and deleting database volumes...$(RESET)\n"
 	@$(MAKE) -C backend clean
 	@printf " $(CYAN)--> Purging frontend node_modules, build packages, and lock files...$(RESET)\n"
-	@rm -rf frontend/node_modules frontend/.next
+	@rm -rf frontend/node_modules frontend/.next || true
 	@printf " $(GREEN)--> Workspace is completely cleaned! Run 'make init' to start fresh.$(RESET)\n"

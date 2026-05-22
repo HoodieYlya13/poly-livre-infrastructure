@@ -1,6 +1,6 @@
-# 📚 Poly Livre - Full Stack Collaborative Platform
+# 📚 Liprerie - Full Stack Collaborative Platform
 
-Welcome to **Poly Livre**, a comprehensive full-stack web application designed for interactive book sharing and collaborative libraries. This project was developed as a collaborative school full-stack engineering project by:
+Welcome to **Liprerie**, a comprehensive full-stack web application designed for interactive book sharing and collaborative libraries. This project was developed as a collaborative school full-stack engineering project by:
 
 [![Author - HoodieYlya13](https://img.shields.io/badge/Developer-HoodieYlya13-cyan?style=for-the-badge&logo=github)](https://github.com/HoodieYlya13)
 [![Author - Akaby](https://img.shields.io/badge/Developer-Akaby-blue?style=for-the-badge&logo=github)](https://github.com/Akaby)

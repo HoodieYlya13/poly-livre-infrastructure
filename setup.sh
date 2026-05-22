@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 
 # ==============================================================================
-# Poly Livre - Full Stack Project Setup Script
+# Liprerie - Full Stack Project Setup Script
 # Developed by: HoodieYlya13, Akaby, & Algebrino
 # ==============================================================================
 
 set -euo pipefail
 
+# Text style helpers
 BOLD="\033[1m"
 GREEN="\033[32m"
 CYAN="\033[36m"
@@ -31,17 +32,17 @@ log_error() {
 }
 
 echo -e "${CYAN}"
-echo -e "  _____       _         _      _                  "
-echo -e " |  __ \     | |       | |    (_)                 "
-echo -e " | |__) |___ | |_   _  | |     ___   ___ __ ___   "
-echo -e " |  ___// _ \| | | | | | |    | \ \ / / '__/ _ \  "
-echo -e " | |   | (_) | | |_| | | |____| |\ V /| | |  __/  "
-echo -e " |_|    \___/|_|\__, | |______|_| \_/ |_|  \___|  "
-echo -e "                 __/ |                            "
-echo -e "                |___/                             "
+echo -e "  _      _                     _        "
+echo -e " | |    (_)                   (_)       "
+echo -e " | |     _ _ __  _ __ ___ _ __ _  ___   "
+echo -e " | |    | | '_ \| '__/ _ \ '__| |/ _ \  "
+echo -e " | |____| | |_) | | |  __/ |  | |  __/  "
+echo -e " |______|_| .__/|_|  \___|_|  |_|\___|  "
+echo -e "          | |                           "
+echo -e "          |_|                           "
 echo -e "${RESET}"
 echo -e "${BOLD}====================================================================${RESET}"
-echo -e " ${BOLD}Project:${RESET} Poly Livre - Full Stack Collaborative Platform"
+echo -e " ${BOLD}Project:${RESET} Liprerie - Full Stack Collaborative Platform"
 echo -e " ${BOLD}Authors:${RESET} ${CYAN}HoodieYlya13${RESET} | ${CYAN}Akaby${RESET} | ${CYAN}Algebrino${RESET}"
 echo -e "${BOLD}====================================================================${RESET}"
 echo ""
@@ -85,6 +86,6 @@ fi
 
 echo ""
 echo -e "${BOLD}====================================================================${RESET}"
-log_success "Poly Livre setup is now complete!"
+log_success "Liprerie setup is now complete!"
 log_success "You can run 'make all' or 'make dev' to start the full stack application."
 echo -e "${BOLD}====================================================================${RESET}"
