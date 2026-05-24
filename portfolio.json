@@ -7,7 +7,7 @@
   "project_meta": {
     "role": "Lead Architect & Full-Stack Core Engineer",
     "development_phase": "Production-Ready Full-Stack System (5th-Year Capstone)",
-    "languages": ["Java", "TypeScript", "SQL", "CSS"],
+    "languages": ["Java", "TypeScript", "SQL", "HTML", "CSS"],
     "frameworks_and_tools": [
       "Spring Boot 3.5",
       "Next.js 16 (App Router)",
