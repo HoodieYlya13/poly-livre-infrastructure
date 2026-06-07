@@ -67,4 +67,3 @@
   },
   "lessons_learned": "Decoupling frontend presentation and backend services via strict API contracts (using OpenAPI/Swagger) and unified Docker orchestration greatly accelerates development velocity. Furthermore, utilizing modern, efficient cryptographic primitives like Elliptic Curve tokens and passwordless biometrics drastically reduces architectural security vulnerabilities while simplifying database schema dependencies (no need to store hashed passwords, just public keys)."
 }
-
